@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={geist.className}>
-      <body>
+      <body className="bg-stone-100">
         {children}
         <Analytics />
       </body>

@@ -2,7 +2,7 @@ import { Github, Linkedin } from "lucide-react";
 import React from "react";
 export default function Page(): React.JSX.Element {
   return (
-    <main className="min-h-screen bg-stone-100 px-4 py-8 sm:px-6 sm:py-12 md:px-12 lg:px-24" role="main">
+    <main className="min-h-screen px-4 py-8 sm:px-6 sm:py-12 md:px-12 lg:px-24" role="main">
       <div className="max-w-2xl flex flex-col gap-y-6 sm:gap-y-8">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-black">
           Hi, I&apos;m Joshua Thompson-Lindley.
