@@ -29,7 +29,7 @@ export default function Page(): React.JSX.Element {
               forensic acquisition tool
             </Link>{" "}
             that captures and secures critical data from target systems. I also
-            plan sprints and lead technical strategy , building solutions to the
+            plan sprints and lead technical strategy, building solutions to the
             challenges product brings to the table.
           </p>
           <p>
