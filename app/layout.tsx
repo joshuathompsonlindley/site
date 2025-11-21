@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import React from "react";
 import "./globals.css";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const geist = Geist({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
       <body className="bg-stone-100">
         {children}
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
