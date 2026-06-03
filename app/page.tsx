@@ -16,7 +16,7 @@ export default function HomePage(): React.JSX.Element {
       />
       <Section>
         <p>
-          I&apos;m an Engineering Lead at Darktrace, where I lead a team of 4
+          I&apos;m an Engineering Manager at Darktrace, where I lead a team of 4
           people working on the{' '}
           <Link
             href="https://www.darktrace.com/forensic-acquisition-investigation"
