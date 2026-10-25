@@ -12,7 +12,7 @@ export default function ProjectsPage(): React.JSX.Element {
         title="chordscope"
         link="https://joshuathompsonlindley.github.io/chordscope/"
       >
-        Detect chord and key information from a MIDI clip. Also available as an 
+        Detect chord and key information from a MIDI clip. Also available as an{" "}
         <Link
             href="https://github.com/joshuathompsonlindley/chordscope/releases/latest/download/Chordscope.ablx"
             target="_blank"
