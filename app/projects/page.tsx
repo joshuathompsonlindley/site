@@ -8,6 +8,20 @@ export default function ProjectsPage(): React.JSX.Element {
     <Page>
       <Header text="Projects" />
       <Section
+        title="chordscope"
+        link="https://joshuathompsonlindley.github.io/chordscope/"
+      >
+        Detect chord and key information from a MIDI clip. Also available as an 
+        <Link
+            href="https://github.com/joshuathompsonlindley/chordscope/releases/latest/download/Chordscope.ablx"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:text-blue-600 transition-colors"
+          >
+            Ableton Live extension.
+        </Link>
+      </Section>
+      <Section
         title="miditrackpad"
         link="https://github.com/joshuathompsonlindley/miditrackpad"
       >
