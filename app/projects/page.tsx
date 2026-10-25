@@ -2,6 +2,7 @@ import Header from '@/components/header'
 import Page from '@/components/page'
 import Section from '@/components/section'
 import React from 'react'
+import Link from 'next/link'
 
 export default function ProjectsPage(): React.JSX.Element {
   return (
